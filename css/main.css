@@ -46,3 +46,70 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+
+.mainNav
+{
+	list-style: none;
+	text-decoration: none;
+}
+
+.flex1
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+}
+
+.flex2
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+}
+
+.flex3
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+}
+
+.flex4
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+}
+
+
+.footerNav
+{
+	list-style: none;
+	text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
