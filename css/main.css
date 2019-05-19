@@ -47,51 +47,160 @@ table {
 	border-spacing: 0;
 }
 
-.mainNav
+
+/* -------------- MAIN SETTINGS --------------*/
+
+body
 {
-	list-style: none;
-	text-decoration: none;
+	font-family: "Verdana", "Arial", sans-serif;
+	background-color: white;
+	background-image:  url("data:image/svg+xml,%3Csvg width='6' height='6' viewBox='0 0 6 6' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%23000000' fill-opacity='0.43' fill-rule='evenodd'%3E%3Cpath d='M5 0h1L0 6V5zM6 5v1H5z'/%3E%3C/g%3E%3C/svg%3E");
 }
 
-.flex1
+.container
+{
+  width: 1024px;
+  margin: 0 auto;
+  background-color: white;
+}
+
+.mainHeader
 {
 	display: flex;
 	flex-direction: row;
+	justify-content: flex-start;
+}
+
+#logoHeader
+{
+	width: 500px;
+	height: 300px;
+	padding-right: 100px;
+}
+
+.mainNav
+{
+	width: 500px;
+	height: 60px;
+	margin-top: 60px;
+	margin-left: auto;
+}
+
+.mainNav ul
+{
+  list-style-type: none;
+  padding: 5px 0px 5px 0px;
+  list-style-type: none;
+}
+
+.mainNav ul li 
+{  
+  font-size: 17px;
+  display: inline;
+  cursor: pointer;
+  margin-left: 50px;
+}
+
+.mainNav ul li a
+{
+  padding: 5px;
+  text-decoration: none;
+  color: #FF7061;
+  font-weight: bold;
+}
+
+
+
+.flex1
+{
+	width: 1024px;
+	display: flex;
+	position: relative;
+	flex-direction: row;
 	justify-content: space-evenly;
+	padding: 0 70px 70px 0;
 }
 
 .flex2
 {
+	width: 1024px;
 	display: flex;
+	position: relative;
 	flex-direction: row;
 	justify-content: space-evenly;
+	padding: 0 70px 70px 0;
 }
 
 .flex3
 {
+	width: 1024px;
 	display: flex;
+	position: relative;
 	flex-direction: row;
 	justify-content: space-evenly;
+	padding: 0 70px 70px 0;
 }
 
 .flex4
 {
+	width: 1024px;
 	display: flex;
+	position: relative;
 	flex-direction: row;
 	justify-content: space-evenly;
+	padding: 0 70px 70px 0;
+}
+
+.mainFooter
+{
+	height: 176px;
+	width: 1024px;
+	background-image: url(../images/footer_background.png) no-repeat bottom;
+	padding-top: 100px;
 }
 
 
 .footerNav
 {
-	list-style: none;
-	text-decoration: none;
+	width: 500px;
+	height: 60px;
+	margin-top: 60px;
+	margin-left: 270px;
+}
+
+.footerNav ul
+{
+  list-style-type: none;
+  padding: 5px 0px 5px 0px;
+  list-style-type: none;
+}
+
+.footerNav ul li 
+{  
+  font-size: 17px;
+  display: inline;
+  cursor: pointer;
+  margin-left: 50px;
+}
+
+.footerNav ul li a
+{
+  padding: 5px;
+  text-decoration: none;
+  color: #FF7061;
+  font-weight: bold;
 }
 
 
-
-
-
+.copyright
+{
+	padding-left: 740px;
+	padding-top: 12px;
+	color: black;
+	font-family: arial;
+	font-size: 17px;
+	font-weight: bold;
+}
 
 
 
