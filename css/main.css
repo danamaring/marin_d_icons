@@ -5,6 +5,7 @@ body
 	background-color: white;
 }
 
+/* HEADER */
 
 .mainHeader
 {
@@ -24,6 +25,8 @@ body
 	padding-top: 20px;
 	padding-left: 20px;
 }
+
+/* HEADER_NAV */
 
 .mainNav
 {
@@ -54,6 +57,7 @@ body
   text-decoration: none;
   color: white;
   font-weight: bold;
+  font-family: verdana;
 }
 
 .title 
@@ -63,12 +67,11 @@ body
 	padding: 15px 0 15px 50px;
 	background-color: black;
 	color: white;
+	font-family: verdana;
+
 }
 
-#iconsSection img
-{
-	cursor: pointer;
-}
+/* ICONS_FLEXBOX */
 
 .flex1
 {
@@ -103,11 +106,506 @@ body
 }
 
 
-.st0:hover
+/* ICONS_HOVER_STYLING */
+
+#avocado_container 
 {
-	opacity:1;
-	fill:#919191;
+  position: relative;
+  cursor: pointer;
+
 }
+
+#avocadoIcon {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.avocado_overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #B7CC5E;
+}
+
+#avocado_container:hover .avocado_overlay {
+  opacity: 1;
+}
+
+.avocado_text {
+  color: white;
+  font-size: 13px;
+  font-family: verdana;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: left;
+  font-weight: bold;
+}
+
+#banana_container 
+{
+  position: relative;
+  cursor: pointer;
+
+}
+
+#bananaIcon {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.banana_overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #FF7061;
+}
+
+#banana_container:hover .banana_overlay {
+  opacity: 1;
+}
+
+.banana_text {
+  color: white;
+  font-size: 13px;
+  font-family: verdana;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: left;
+  font-weight: bold;
+}
+
+#watermelon_container 
+{
+  position: relative;
+  cursor: pointer;
+}
+
+#watermelonIcon {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.watermelon_overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #B7CC5E;
+}
+
+#watermelon_container:hover .watermelon_overlay {
+  opacity: 1;
+}
+
+.watermelon_text {
+  color: white;
+  font-size: 12px;
+  font-family: verdana;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: left;
+  font-weight: bold;
+}
+
+#kiwi_container 
+{
+  position: relative;
+  cursor: pointer;
+}
+
+#kiwiIcon {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.kiwi_overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #FF7061;
+}
+
+#kiwi_container:hover .kiwi_overlay {
+  opacity: 1;
+}
+
+.kiwi_text {
+  color: white;
+  font-size: 13px;
+  font-family: verdana;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: left;
+  font-weight: bold;
+}
+
+#grapes_container 
+{
+  position: relative;
+  cursor: pointer;
+}
+
+#grapesIcon {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.grapes_overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #B7CC5E;
+}
+
+#grapes_container:hover .grapes_overlay {
+  opacity: 1;
+}
+
+.grapes_text {
+  color: white;
+  font-size: 12px;
+  font-family: verdana;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: left;
+  font-weight: bold;
+}
+
+#tamarind_container 
+{
+  position: relative;
+  cursor: pointer;
+}
+
+#tamarindIcon {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.tamarind_overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #FF7061;
+}
+
+#tamarind_container:hover .tamarind_overlay {
+  opacity: 1;
+}
+
+.tamarind_text {
+  color: white;
+  font-size: 13px;
+  font-family: verdana;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: left;
+  font-weight: bold;
+}
+
+#peach_container 
+{
+  position: relative;
+  cursor: pointer;
+}
+
+#peachIcon {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.peach_overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #B7CC5E;
+}
+
+#peach_container:hover .peach_overlay {
+  opacity: 1;
+}
+
+.peach_text {
+  color: white;
+  font-size: 13px;
+  font-family: verdana;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: left;
+  font-weight: bold;
+}
+
+#cherries_container 
+{
+  position: relative;
+  cursor: pointer;
+}
+
+#cherriesIcon {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.cherries_overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #FF7061;
+}
+
+#cherries_container:hover .cherries_overlay {
+  opacity: 1;
+}
+
+.cherries_text {
+  color: white;
+  font-size: 13px;
+  font-family: verdana;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: left;
+  font-weight: bold;
+}
+
+#papaya_container 
+{
+  position: relative;
+  cursor: pointer;
+}
+
+#papayaIcon {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.papaya_overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #B7CC5E;
+}
+
+#papaya_container:hover .papaya_overlay {
+  opacity: 1;
+}
+
+.papaya_text {
+  color: white;
+  font-size: 13px;
+  font-family: verdana;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: left;
+  font-weight: bold;
+}
+
+#coconut_container 
+{
+  position: relative;
+  cursor: pointer;
+}
+
+#coconutIcon {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.coconut_overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #FF7061;
+}
+
+#coconut_container:hover .coconut_overlay {
+  opacity: 1;
+}
+
+.coconut_text {
+  color: white;
+  font-size: 13px;
+  font-family: verdana;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: left;
+  font-weight: bold;
+}
+
+#lemon_container 
+{
+  position: relative;
+  cursor: pointer;
+}
+
+#lemonIcon {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.lemon_overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #B7CC5E;
+}
+
+#lemon_container:hover .lemon_overlay {
+  opacity: 1;
+}
+
+.lemon_text {
+  color: white;
+  font-size: 13px;
+  font-family: verdana;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: left;
+  font-weight: bold;
+}
+
+#apple_container 
+{
+  position: relative;
+  cursor: pointer;
+}
+
+#appleIcon {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.apple_overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #FF7061;
+}
+
+#apple_container:hover .apple_overlay {
+  opacity: 1;
+}
+
+.apple_text {
+  color: white;
+  font-size: 13px;
+  font-family: verdana;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: left;
+  font-weight: bold;
+}
+
+
+
+
+/* FOOTER */
 
 .mainFooter
 {
@@ -146,6 +644,8 @@ body
   text-decoration: none;
   color: white;
   font-weight: bold;
+  font-family: verdana;
+
 }
 
 
