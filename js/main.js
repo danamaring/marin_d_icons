@@ -4,19 +4,18 @@
 
 	//VARIABLES
 
-	let icons_section = document.querySelectorAll("#iconsSection img"),
-		avocado_icon = document.querySelector(".avocadoIcon"),
-		banana_icon = document.querySelector(".bananaIcon"),
-		watermelon_icon = document.querySelector(".watermelonIcon"),
-		kiwi_icon = document.querySelector(".kiwiIcon"),
-		grapes_icon = document.querySelector(".grapesIcon"),
-		tamarind_icon = document.querySelector(".tamarindIcon"),
-		peach_icon = document.querySelector(".peachIcon"),
-		cherries_icon = document.querySelector(".cherriesIcon"),
-		papaya_icon = document.querySelector(".papayaIcon"),
-		coconut_icon = document.querySelector(".coconutIcon"),
-		lemon_icon = document.querySelector(".lemonIcon"),
-		apple_icon = document.querySelector(".appleIcon");
+	let avocadoContainer = document.querySelectorAll("#avocado_container"),
+		bananaContainer = document.querySelectorAll("#banana_container"),
+		watermelonContainer = document.querySelectorAll("#watermelon_container"),
+		kiwiContainer = document.querySelectorAll("#kiwi_container"),
+		grapesContainer = document.querySelectorAll("#grapes_container"),
+		tamarindContainer = document.querySelectorAll("#tamarind_container"),
+		peachContainer = document.querySelectorAll("#peach_container"),
+		cherriesContainer = document.querySelectorAll("#cherries_container"),
+		papayaContainer = document.querySelectorAll("#papaya_container"),
+		coconutContainer = document.querySelectorAll("#coconut_container"),
+		lemonContainer = document.querySelectorAll("#lemon_container"),
+		appleContainer = document.querySelectorAll("#apple_container");
 
 		
 	//FUNCTIONS
@@ -27,7 +26,53 @@
 
 
 	//EVENTS
-	icons_section.forEach(item => {
+	avocadoContainer.forEach(item => {
 		item.addEventListener("click", logMyId);
 	});
+
+	bananaContainer.forEach(item => {
+		item.addEventListener("click", logMyId);
+	});
+
+	watermelonContainer.forEach(item => {
+		item.addEventListener("click", logMyId);
+	});
+
+	kiwiContainer.forEach(item => {
+		item.addEventListener("click", logMyId);
+	});
+
+	grapesContainer.forEach(item => {
+		item.addEventListener("click", logMyId);
+	});
+
+	tamarindContainer.forEach(item => {
+		item.addEventListener("click", logMyId);
+	});
+
+	peachContainer.forEach(item => {
+		item.addEventListener("click", logMyId);
+	});
+
+	cherriesContainer.forEach(item => {
+		item.addEventListener("click", logMyId);
+	});
+
+	papayaContainer.forEach(item => {
+		item.addEventListener("click", logMyId);
+	});
+
+	coconutContainer.forEach(item => {
+		item.addEventListener("click", logMyId);
+	});
+
+	lemonContainer.forEach(item => {
+		item.addEventListener("click", logMyId);
+	});
+
+	appleContainer.forEach(item => {
+		item.addEventListener("click", logMyId);
+	});
+
+
 })();
